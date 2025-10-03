@@ -34,6 +34,10 @@ export const categories = [
     id: 'ys',
     name: '影视', icon: '/icons/category/ys.webp',
   },
+  {
+    id: 'zyxz',
+    name: '资源下载', icon: '/icons/category/zyxz.webp',
+  },
 ];
 /**
  * 网站列表
@@ -196,7 +200,43 @@ export const sites = [
       category: 'ys',
       icon: '/icons/wfm.webp',
       },
-      
+      // 资源下载
+      {      
+      id: 'fenxm',
+      title: '分享迷',
+      description: '优质精品TV软件、互联网资源分享平台，提供各类影视盒子、直播软件、实用工具等免费资源，更新及时且资源丰富',
+      shortDesc: '精品软件与资源分享平台',
+      url: 'https://www.fenxm.com/',
+      category: 'zyxz',
+      icon: '/icons/category/zyxz.webp',
+      },
+      {      
+      id: 'yxssp',
+      title: '异星软件空间',
+      description: '专注于分享各类实用软件、绿色软件、破解软件及互联网资源，提供详细的软件介绍与下载服务，是软件爱好者的聚集地',
+      shortDesc: '实用软件与破解工具分享',
+      url: 'https://www.yxssp.com/',
+      category: 'zyxz',
+      icon: '/icons/yxssp.webp',
+      },
+      {      
+      id: 'oogccc',
+      title: 'OOGC.CC',
+      description: '提供各类影视资源、电子书、软件工具等下载服务，资源丰富且更新及时，界面简洁易用',
+      shortDesc: '综合资源下载平台',
+      url: 'https://oogc.cc/',
+      category: 'zyxz',
+      icon: '/icons/category/zyxz.webp',
+      },
+      {      
+      id: 'haidaowan',
+      title: '海盗湾',
+      description: '全球知名的BT资源分享平台，提供电影、音乐、游戏、软件等各类资源的磁力链接下载，用户基数庞大且资源更新迅速',
+      shortDesc: '全球知名BT资源分享平台',
+      url: 'https://thepiratebay.org/',
+      category: 'zyxz',
+      icon: '/icons/haidaowan.webp',
+      }
 ];
 /**
  * 搜索网站功能

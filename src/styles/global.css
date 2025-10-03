@@ -91,6 +91,11 @@
   body {
     /* 浅色模式使用柔和的灰色调背景 */
     background-color: var(--color-bg-primary);
+    background-image: url('https://tpapi.zghome.top/sj.php');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: var(--color-text-primary);
     transition: var(--transition-theme);
     line-height: 1.5;
